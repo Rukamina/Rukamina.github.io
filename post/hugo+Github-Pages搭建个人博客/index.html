@@ -49,7 +49,7 @@
 <meta itemprop="description" content="大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64） 一、安装hugo 安装包地址:">
 <meta itemprop="datePublished" content="2019-12-08T19:55:48&#43;08:00" />
 <meta itemprop="dateModified" content="2019-12-08T19:55:48&#43;08:00" />
-<meta itemprop="wordCount" content="960">
+<meta itemprop="wordCount" content="952">
 
 
 
@@ -131,7 +131,7 @@
       <div class="post-meta">
         <span class="post-time"> 2019-12-08 19:55 </span>
         
-          <span class="more-meta"> 约 960 字 </span>
+          <span class="more-meta"> 约 952 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -147,7 +147,7 @@
       <p>大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64）</p>
 <h1 id="hugo">一、安装hugo</h1>
 <ol>
-<li>安装包地址:<a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a>
+<li>安装包地址:<a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a><br>
 找到hugo_xxx_windows-64bit.zip的安装包进行下载</li>
 <li>解压缩到本地 \D:\Software\hugo\目录，只需要留下hugo.exe</li>
 <li>打开系统环境变量添加path路径:D:\Software\hugo\</li>
@@ -161,9 +161,8 @@
 进入blog目录，新建一个hugo项目，即hugo站点，命令如下：</li>
 </ol>
 <pre><code>      hugo new site [project-name]
-</code></pre><pre><code>我的站点名叫rukamina.github.io-creator;
-创建完成后，在rukamina.github.io-creator文件夹下会生成多个文件夹
-</code></pre>
+</code></pre><p>我的站点名叫rukamina.github.io-creator;<br>
+创建完成后，在rukamina.github.io-creator文件夹下会生成多个文件夹</p>
 <pre><code>├── archetypes # 存放生成博客的模版
 ├── assets # 存放被 Hugo Pipes 处理的文件
 ├── config # 存放 hugo 配置文件 支持 JSON YAML TOML 三种格式配置文件
@@ -172,21 +171,19 @@
 ├── layouts # 存放布局文件
 ├── static # 存放静态文件 图片 CSS JS文件
 └── themes # 存放主题
-</code></pre><p>3)下载博客主题
-创建完成后，进入rukamina.github.io-creator目录，运行命令
+</code></pre><p>3)下载博客主题<br>
+创建完成后，进入rukamina.github.io-creator目录，运行命令<br>
 由于我下载不了官网的默认主题，在网上找了一个：</p>
 <pre><code>    git clone https://github.com/olOwOlo/hugo-theme-even themes/even
-</code></pre><p>4)新建博客
+</code></pre><p>4)新建博客<br>
 下载完成后在rukamina.github.io-creator目录下运行：</p>
 <pre><code>     hugo new post/我的第一篇博客.md
-</code></pre><pre><code> 运行后在content/post目录下新建博客文章成功，使用md语法编辑文章内容
- md简单语法可参照文章&lt;https://blog.csdn.net/weixin_42262935/article/details/81201447&gt;
-</code></pre>
-<p>5）本地查看博客，运行命令</p>
+</code></pre><p>运行后在content/post目录下新建博客文章成功，使用md语法编辑文章内容<br>
+md简单语法可参照文章<a href="https://blog.csdn.net/weixin_42262935/article/details/81201447">https://blog.csdn.net/weixin_42262935/article/details/81201447</a><br>
+5）本地查看博客，运行命令</p>
 <pre><code>    hugo server -D
-</code></pre><pre><code>即开启了本地服务器，在运行结果中有博客本地地址，我的是http://localhost:1313/，
-按住ctrl，鼠标单击即可访问。
-</code></pre>
+</code></pre><p>即开启了本地服务器，在运行结果中有博客本地地址，我的是http://localhost:1313/，<br>
+按住ctrl，鼠标单击即可访问。</p>
 
     </div>
 
