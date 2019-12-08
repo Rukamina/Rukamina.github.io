@@ -6,7 +6,7 @@
     <description>Recent content on GouDan&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Dec 2019 18:15:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 19:55:48 +0800</lastBuildDate>
     
 	<atom:link href="https://rukamina.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,15 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Hugo&#43;Github Pages搭建个人博客</title>
+      <link>https://rukamina.github.io/post/hugo&#43;Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 08 Dec 2019 19:55:48 +0800</pubDate>
+      
+      <guid>https://rukamina.github.io/post/hugo&#43;Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64） 一、安装hugo 安装包地址:</description>
     </item>
     
     <item>

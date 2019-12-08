@@ -10,20 +10,27 @@
   
   <url>
     <loc>https://rukamina.github.io/</loc>
-    <lastmod>2019-12-08T18:15:21+08:00</lastmod>
+    <lastmod>2019-12-08T19:55:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://rukamina.github.io/post/my-first-blog/</loc>
-    <lastmod>2019-12-08T18:15:21+08:00</lastmod>
+    <loc>https://rukamina.github.io/post/hugo&#43;Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2019-12-08T19:55:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://rukamina.github.io/post/</loc>
+    <lastmod>2019-12-08T19:55:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rukamina.github.io/post/my-first-blog/</loc>
     <lastmod>2019-12-08T18:15:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
