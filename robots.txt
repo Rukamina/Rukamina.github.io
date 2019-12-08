@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rukamina.github.io/sitemap.xml
