@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="GouDan" /><meta name="description" content="大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64） 一、安装hugo 安装包地址:" /><meta name="keywords" content="Mac, Github, Vue, React, Front End" />
+<meta name="author" content="GouDan" /><meta name="description" content="大家好，最近在学习如何使用hugo配合github pages搭建个人博客，将学习过程分享给大家。（我是win10 x64） 一、安装hugo 安装" /><meta name="keywords" content="Mac, Github, Vue, React, Front End" />
 
 
 
@@ -40,22 +40,22 @@
 
 
 <meta property="og:title" content="Hugo&#43;Github Pages搭建个人博客" />
-<meta property="og:description" content="大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64） 一、安装hugo 安装包地址:" />
+<meta property="og:description" content="大家好，最近在学习如何使用hugo配合github pages搭建个人博客，将学习过程分享给大家。（我是win10 x64） 一、安装hugo 安装" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rukamina.github.io/post/hugo&#43;Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2019-12-08T19:55:48+08:00" />
 <meta property="article:modified_time" content="2019-12-08T19:55:48+08:00" />
 <meta itemprop="name" content="Hugo&#43;Github Pages搭建个人博客">
-<meta itemprop="description" content="大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64） 一、安装hugo 安装包地址:">
+<meta itemprop="description" content="大家好，最近在学习如何使用hugo配合github pages搭建个人博客，将学习过程分享给大家。（我是win10 x64） 一、安装hugo 安装">
 <meta itemprop="datePublished" content="2019-12-08T19:55:48&#43;08:00" />
 <meta itemprop="dateModified" content="2019-12-08T19:55:48&#43;08:00" />
-<meta itemprop="wordCount" content="1707">
+<meta itemprop="wordCount" content="1708">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo&#43;Github Pages搭建个人博客"/>
-<meta name="twitter:description" content="大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64） 一、安装hugo 安装包地址:"/>
+<meta name="twitter:description" content="大家好，最近在学习如何使用hugo配合github pages搭建个人博客，将学习过程分享给大家。（我是win10 x64） 一、安装hugo 安装"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -131,7 +131,7 @@
       <div class="post-meta">
         <span class="post-time"> 2019-12-08 19:55 </span>
         
-          <span class="more-meta"> 约 1707 字 </span>
+          <span class="more-meta"> 约 1708 字 </span>
           <span class="more-meta"> 预计阅读 4 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -144,7 +144,7 @@
   </div>
 </div>
     <div class="post-content">
-      <p>大家好，本文将我如何使用hugo配合github pages搭建个人博客的过程分享给大家。（我是win10 x64）</p>
+      <p>大家好，最近在学习如何使用hugo配合github pages搭建个人博客，将学习过程分享给大家。（我是win10 x64）</p>
 <h1 id="hugo">一、安装hugo</h1>
 <ol>
 <li>安装包地址:<a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a><br>
@@ -178,9 +178,11 @@
 </ol>
 <pre><code>    git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 </code></pre><p>进入themes\even\exampleSite目录，拷贝content文件夹和config.toml文件到根目录下，覆盖原来的配置，并根据自己的需要配置config.toml文件，配置引用：<br>
-[主题配置文件]<a href="https://github.com/nusr/blog/blob/master/config.toml">https://github.com/nusr/blog/blob/master/config.toml</a>
-4. 新建博客<br>
-下载完成后在rukamina.github.io-creator目录下运行：</p>
+[主题配置文件]<a href="https://github.com/nusr/blog/blob/master/config.toml">https://github.com/nusr/blog/blob/master/config.toml</a></p>
+<ol start="4">
+<li>新建博客<br>
+下载完成后在rukamina.github.io-creator目录下运行：</li>
+</ol>
 <pre><code>     hugo new post/我的第一篇博客.md
 </code></pre><p>运行后在content/post目录下新建博客文章成功，使用md语法编辑文章内容<br>
 md简单语法可参照文章<a href="https://blog.csdn.net/weixin_42262935/article/details/81201447">https://blog.csdn.net/weixin_42262935/article/details/81201447</a>;<br>
@@ -194,14 +196,17 @@ md简单语法可参照文章<a href="https://blog.csdn.net/weixin_42262935/arti
 </ol>
 <pre><code>    hugo server -D
 </code></pre><p>即开启了本地服务器，在运行结果中有博客本地地址，我的是http://localhost:1313/，<br>
-按住ctrl，鼠标单击即可访问。<br>
-6. 换肤</p>
+按住ctrl，鼠标单击即可访问。</p>
+<ol start="6">
+<li>换肤
 <ul>
 <li>进入hugo的themes官网，点击一个主题，点击homegate,按文章运行命令下载主题</li>
 <li>修改config.toml文件主题为刚下载的主题</li>
 </ul>
+</li>
+</ol>
 <h1 id="github">三、将博客配置到github上</h1>
-<ol start="7">
+<ol>
 <li>进入rukamina.github.io-creator目录，运行命令：</li>
 </ol>
 <pre><code>hugo
@@ -217,9 +222,11 @@ git commit . -v
 </ol>
 <pre><code>git remote add git@github:xxx.git  
 git push -u origin master
-</code></pre><p>把本地仓库代码提交到远程仓库后，打开settings,下划拉到github pages,
-设置成master后出现的网址就是博客地址，博客配置到github上成功。<br>
-3. 如果新增了新的博客文章或者博客有变动，则：</p>
+</code></pre><p>把本地仓库代码提交到远程仓库后，打开settings,下划拉到github pages,<br>
+设置成master后出现的网址就是博客地址，博客配置到github上成功。</p>
+<ol start="3">
+<li>如果新增了新的博客文章或者博客有变动，则：</li>
+</ol>
 <ul>
 <li>重新回到根目录下，运行hugo命令；</li>
 <li>进入public命令，再次git add,git commit ,git push操作.</li>
